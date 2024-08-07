@@ -28,7 +28,7 @@ For transforming text data into numerical features, we used two vectorization te
 
 ## Model
 
-The primary model used for this project is the **Multinomial Naive Bayes Classifier**. This model is well-suited for text classification tasks and handles the categorical nature of the data effectively.
+The primary model used for this project is the **Multinomial and Bernoulli Naive Bayes Classifier**. This model is well-suited for text classification tasks and handles the categorical nature of the data effectively.
 
 ### Hyperparameter Tuning
 
@@ -36,7 +36,7 @@ To optimize the model, we performed hyperparameter tuning using GridSearchCV. Th
 
 ## Results
 
-After training and evaluating the model with different preprocessing and vectorization techniques, we achieved an accuracy of 75% with the optimized Naive Bayes classifier. The model performance indicates a good balance between precision and recall, making it suitable for real-world sentiment analysis tasks.
+After training and evaluating the model with different preprocessing and vectorization techniques, we achieved an accuracy of 82%+ with the optimized Naive Bayes classifier. The model performance indicates a good balance between precision and recall, making it suitable for real-world sentiment analysis tasks.
 
 ## Conclusion
 
